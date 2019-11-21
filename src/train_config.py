@@ -5,7 +5,7 @@ from easydict import EasyDict as edict
 config = edict()
 
 config.TRAIN = edict()
-config.TRAIN.num_gpus = 2
+config.TRAIN.num_gpus = 8
 config.TRAIN.batch_size = 1024
 config.TRAIN.save_interval = 5000
 config.TRAIN.log_interval = 1
